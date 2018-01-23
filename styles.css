@@ -26,7 +26,19 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 .square{
- border-radius:0px;
+/* border-radius:0px;
  border:10px solid blue;
- position:absolute;
+ position:absolute;*/
+  /*background-image: url('src/images/carlton.gif');*/
+  background-repeat: no-repeat;
+  position:absolute;
+  width: 75px;
+  height: 75px;
+}
+.cat{
+  /*background-image: url('src/images/kitten.png');*/
+  background-repeat: no-repeat;
+  position:absolute;
+  width: 75px;
+  height: 75px;
 }
