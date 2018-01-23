@@ -1,7 +1,7 @@
 var makeSquareDancer = function(top, left, timeBetweenSteps) {
   makeDancer.call(this, top, left, timeBetweenSteps);
   this.$node.attr('src', 'src/images/carlton.gif');
-  this.$node.addClass('square');
+  this.$node.addClass('carlton');
 };
 
 makeSquareDancer.prototype = Object.create(makeDancer.prototype);

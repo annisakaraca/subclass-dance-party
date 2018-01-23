@@ -37,10 +37,14 @@ $(document).ready(function() {
     // $('.carlton-div').append($('.square'));
     //$('img').addClass('lined-up');
     // $('img.cat').each(function() {
-    $('img.cat').css('top', 0);
-    $('img.dancer').css('top', '275px');
-    $('img.square').css('top', '550px');
+    $('img.cat').css('top', '100px');
+    $('img.shark').css('top', '375px');
+    $('img.carlton').css('top', '650px');
     // });
+  });
+
+  $(document).on('mouseover', 'img', function(event) {
+    $(this).css('height', '50%');
   });
 
 });
