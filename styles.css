@@ -5,6 +5,9 @@ body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  background-image: url('src/images/spacebg.jpg');
+  background-size: 125%;
+background-repeat: no-repeat;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -21,8 +24,8 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  /*border:10px solid red;*/
+  /*border-radius:10px;*/
   position:absolute;
 }
 .square{
@@ -32,13 +35,60 @@ body, a:link, a:visited, a:active{
   /*background-image: url('src/images/carlton.gif');*/
   background-repeat: no-repeat;
   position:absolute;
-  width: 75px;
-  height: 75px;
+  width: 25%;
+  height: 25%;
 }
 .cat{
   /*background-image: url('src/images/kitten.png');*/
   background-repeat: no-repeat;
   position:absolute;
-  width: 75px;
-  height: 75px;
+  width: 25%;
+  height: 25%;
 }
+
+.blackout {
+  display: none;
+}
+
+.cat-div{
+  border:2px solid red;
+  align-content: center;
+  height: 250px;
+  width: 100%;
+  position:;
+} 
+
+.carlton-div{
+  border:2px solid red;
+  height: 250px;
+  width: 100%;
+}
+
+.shark-div{
+  border:2px solid red;
+  height: 250px;
+  width: 100%;
+}
+
+.lined-up.cat{
+  top:0;
+  left:0;
+  position:none;
+  display:inline-block;
+}
+
+.lined-up.square{
+  top:275px;
+  left:0;
+  position:none;
+  display:inline-block;
+}
+
+.lined-up.dancer{
+  top:525px;
+  left:0;
+  position:none;
+  display:inline-block;
+}
+
+
