@@ -41,6 +41,20 @@ $(document).ready(function() {
     $('img.shark').css('top', '375px');
     $('img.carlton').css('top', '650px');
     // });
+    var catImgs = $(document).find('.cat');
+    for (var x = 0; x < catImgs.length; x++) {
+      $(catImgs[x]).css('left', '' + (x * 120) + 'px');
+    }
+
+    var carltonImgs = $(document).find('.carlton');
+    for (var x = 0; x < carltonImgs.length; x++) {
+      $(carltonImgs[x]).css('left', '' + (x * 120) + 'px');
+    }
+
+    var sharkImgs = $(document).find('.shark');
+    for (var x = 0; x < sharkImgs.length; x++) {
+      $(sharkImgs[x]).css('left', '' + (x * 120) + 'px');
+    }
   });
 
   $(document).on('mouseover', 'img', function(event) {
