@@ -61,5 +61,9 @@ $(document).ready(function() {
     $(this).css('color', 'red');
   });
 
+  $(document).on('mouseout', 'img', function(event) {
+    $(this).css('height', '25%');
+  });
+
 });
 
