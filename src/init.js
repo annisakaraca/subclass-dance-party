@@ -58,7 +58,7 @@ $(document).ready(function() {
   });
 
   $(document).on('mouseover', 'img', function(event) {
-    $(this).css('height', '50%');
+    $(this).css('color', 'red');
   });
 
 });
