@@ -54,11 +54,12 @@ $(document).ready(function() {
     var sharkImgs = $(document).find('.shark');
     for (var x = 0; x < sharkImgs.length; x++) {
       $(sharkImgs[x]).css('left', '' + (x * 120) + 'px');
+
     }
   });
 
   $(document).on('mouseover', 'img', function(event) {
-    $(this).css('height', '50%');
+    $(this).css('color', 'red');
   });
 
   $(document).on('mouseout', 'img', function(event) {
