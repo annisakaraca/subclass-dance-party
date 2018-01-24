@@ -40,7 +40,21 @@ $(document).ready(function() {
     $('img.cat').css('top', '100px');
     $('img.shark').css('top', '375px');
     $('img.carlton').css('top', '650px');
-    // });
+    // move cats to left
+    var catImgs = $(document).find('.cat');
+    for (var x = 0; x < catImgs.length; x++) {
+      $(catImgs[x]).css('left', '' + (x * 25) + 'px');
+    }
+    // move carltons to left
+    var carltonImgs = $(document).find('.carlton');
+    for (var x = 0; x < carltonImgs.length; x++) {
+      $(carltonImgs[x]).css('left', '' + (x * 25) + 'px');
+    }
+    // move sharks to left
+    var sharkImgs = $(document).find('.shark');
+    for (var x = 0; x < sharkImgs.length; x++) {
+      $(sharkImgs[x]).css('left', '' + (x * 25) + 'px');
+    }
   });
 
   $(document).on('mouseover', 'img', function(event) {
