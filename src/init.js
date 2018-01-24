@@ -47,5 +47,9 @@ $(document).ready(function() {
     $(this).css('height', '50%');
   });
 
+  $(document).on('mouseout', 'img', function(event) {
+    $(this).css('height', '25%');
+  });
+
 });
 
